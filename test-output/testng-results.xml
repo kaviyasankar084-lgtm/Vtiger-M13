@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-11T10:01:47 IST" name="Default suite" finished-at="2026-07-11T10:01:58 IST" duration-ms="11593">
+    <groups>
+    </groups>
+    <test started-at="2026-07-11T10:01:47 IST" name="Default test" finished-at="2026-07-11T10:01:58 IST" duration-ms="11593">
+      <class name="practice.DataProviderPractice">
+        <test-method signature="demo(java.util.HashMap)[pri:0, instance:practice.DataProviderPractice@175c2241]" started-at="2026-07-11T10:01:47 IST" name="demo" data-provider="loginData" finished-at="2026-07-11T10:01:51 IST" duration-ms="4736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin, username=admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.util.HashMap)[pri:0, instance:practice.DataProviderPractice@175c2241]" started-at="2026-07-11T10:01:51 IST" name="demo" data-provider="loginData" finished-at="2026-07-11T10:01:55 IST" duration-ms="3318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin321, username=adminefa}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demo(java.util.HashMap)[pri:0, instance:practice.DataProviderPractice@175c2241]" started-at="2026-07-11T10:01:55 IST" name="demo" data-provider="loginData" finished-at="2026-07-11T10:01:58 IST" duration-ms="3423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=admin3akm, username=admak}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- practice.DataProviderPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
